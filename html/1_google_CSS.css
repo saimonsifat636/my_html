@@ -1,0 +1,42 @@
+.main {
+    margin-top: 10%;
+    /* If .main is your wrapper, centering it helps center everything inside */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.logo-img {
+    width: 300px;
+    display: block;
+    /* 'auto' on left and right pushes the block to the center */
+    margin:auto; 
+}
+.btn{
+    margin-top: 10px;
+    border-color: #cfd9de;
+    border-radius: 5px;
+    font-weight: bold;
+    /* color:#0f1419; */
+    padding-bottom:10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border:none;
+    font-size:14px;
+}
+.search {
+    width: 400px;
+    display: block;
+    /* background-color: antiquewhite; */
+    /* Same rule here to center the search bar */ 
+    border:1px solid #74797e ;
+    height: 24px;
+    border-radius: 24px;
+    margin-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:10px;
+    font-weight: bolder;    
+    border-color:#959ba1 ;
+}
