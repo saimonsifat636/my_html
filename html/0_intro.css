@@ -1,0 +1,27 @@
+.overview{
+    display: block;
+    background-color: rgb(172, 70, 23);
+    font-style: normal;
+    margin:25px;
+
+    border:18px solid rgb(70, 20, 20);
+    border-radius: 18px ;
+    padding-top:30px;
+    padding-right:300px;
+    padding-bottom:100px;
+}
+.image{
+    display:block;
+    width: 400px;
+    height: 400px;
+}
+.sign_up{
+    border-color: #cfd9de;
+    border-radius: 20px;
+    font-weight: bold;
+    color:#0f1419;
+    padding-bottom:10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

@@ -1,0 +1,21 @@
+.element{
+ border:5px solid red;
+ height:600px;
+   
+    display:flex;
+    flex-direction: column;
+   justify-content: end;
+    align-items: center; 
+    
+        
+}
+.item{
+    font-size: 60px;
+    
+    height: 100px;
+    width: 100px;
+    padding:10px 30px ;
+    margin:3px;
+    border:2px solid black;
+    background: linear-gradient(rgb(117, 27, 27),orange);
+}
