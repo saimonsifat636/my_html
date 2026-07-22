@@ -1,0 +1,73 @@
+
+body{
+    display:block;
+    text-align: center;
+    border:0;
+    background:linear-gradient(skyblue,white) ;
+
+
+}
+.info{
+    margin:100px 0px;
+
+}
+.font_style {
+  color: #b084c4;
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    text-shadow: 0px 0px 20px black;
+    color:snow;
+
+}
+#image{
+border:5px solid rgb(197, 164, 164);
+border-radius: 100%;
+width:200px;
+}
+
+.gift{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+.greating_img{
+  width:500px;
+  height:500px;
+  border:2px solid white;
+  border-radius: 2%;
+  background-image: url("WhatsApp Image 2026-07-17 at 11.58.39 AM.jpeg");
+  background-size: cover;
+  
+}
+.text{
+  margin-bottom: 50px;
+}
+#greetings:hover{
+  background-image: url("Untitled design (1).png");
+    width:500px;
+  height:500px;border-radius: 2%;
+}
+#how_feel:hover{
+  background-image: url("Untitled design (2).png");
+    width:500px;
+  height:500px;border-radius: 2%;
+}
+
+#good:hover{
+  background-image: url("WhatsApp Image 2026-07-16 at 10.47.04 PM.jpeg");
+    width:500px;
+  height:500px;border-radius: 2%;
+}
+#remember{
+  height:300px;
+  width:400px;
+  background-size: cover;
+}
+#remember:hover{
+  background-image: url("Untitled design (1).png");
+     background-size: cover;
+     height:300px;
+  width:400px;
+}
